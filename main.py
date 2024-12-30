@@ -43,4 +43,13 @@ df_ffill = df.fillna(method='ffill')
 print("forward fill")
 print(df_ffill)
 
+# 7
+df_bfill = df.fillna(method='bfill')
+print('backward fill')
+print(df_bfill)
+
+# done
+
+
+
 
