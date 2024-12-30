@@ -17,3 +17,30 @@ missing_count = df.isnull().sum()
 
 print("missing in each collumn")
 print(missing_count)
+
+# 3
+
+df_dropr = df.dropna()
+
+print('dropping rows with missing values: ')
+print(df_dropr)
+
+# 4
+df_dropc = df.dropna(axis=1)
+print(df_dropc)
+
+# 5
+
+df_fill = df.fillna('*')
+
+print('after fillinf missing spots with *')
+print(df_fill)
+
+# 6
+
+df_ffill = df.fillna(method='ffill')
+
+print("forward fill")
+print(df_ffill)
+
+
