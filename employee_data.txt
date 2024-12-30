@@ -1,0 +1,10 @@
+Name Age Department Salary JoinDate
+0 John Doe 28.0 Sales 50000.0 2018-01-15
+1 Jane Smith 34.0 Engineering NaN 2017-05-22
+2 Emily Davis NaN Marketing 45000.0 2019-07-01
+3 Michael Brown 45.0 Sales 65000.0 NaT
+4 Jessica Wilson 29.0 Engineering 55000.0 2018-03-12
+5 Daniel Harris 31.0 NaN 62000.0 2019-06-11
+6 Ashley Moore 36.0 Marketing NaN 2020-01-03
+7 Chris Johnson NaN Engineering 48000.0 2017-09-23
+8 Katie Brown 40.0 Sales 52000.0 2016-11-15
